@@ -1,0 +1,32 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  background: #fefefe;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #09457A;
+}
+.navbar .container {
+  position: relative;
+}
+
+.logo {
+  text-indent: -9999em;
+  background: url('../img/logo-small.png');
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 36%;
+}
+.header .links {
+  float: right;
+}
+
+.container {
+  max-width: 800px;
+}

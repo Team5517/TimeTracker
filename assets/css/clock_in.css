@@ -1,0 +1,54 @@
+body {
+  background-color: #001E63;
+  text-align: center;
+  color: white;
+  padding: 3% 0;
+}
+
+#clock-in {
+  padding: 6% 0;
+}
+header {
+  margin: 0 0 50px;
+}
+
+input {
+  padding: 10px;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  border: 0;
+  margin: 0 0 14px;
+  /* width: 290px; */
+  outline: 0;
+  border-radius: 4px;
+}
+button {
+  border: 0;
+  background: white;
+  color: #001E63;
+  padding: 10px;
+  font-size: 22px;
+  width: 155px;
+  font-weight: bold;
+  outline: 0;
+  border-radius: 4px;
+  margin: 0 4px 13px 0;
+}
+button:hover {
+  opacity: 0.9;
+}
+button#in {
+  color: #0DBD19;
+}
+button#out {
+  color: #EB1515;
+}
+button#stats {
+  width: 210px;
+}
+
+button#mentor-login {
+  padding: 8px 5px;
+  font-size: 15px;
+}
